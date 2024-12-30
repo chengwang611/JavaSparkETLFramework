@@ -7,8 +7,8 @@ public class ETLDriver {
     public static void main(String[] args) {
         SparkSession spark = SparkSession.builder()
                 .appName("SparkBatchETLFramework")
-                .config("spark.hadoop.fs.s3a.access.key", "AKIAYIOFRUZI5E2JFXFK")
-                .config("spark.hadoop.fs.s3a.secret.key", "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")
+                .config("spark.hadoop.fs.s3a.access.key", "xxxx")
+                .config("spark.hadoop.fs.s3a.secret.key", "xxxx")
     //            .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com")
                 .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
                 .config("spark.es.nodes", "192.168.1.14")
